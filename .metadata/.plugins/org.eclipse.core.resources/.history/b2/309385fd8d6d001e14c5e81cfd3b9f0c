@@ -1,0 +1,42 @@
+package pattern;
+
+import java.util.Scanner;
+
+public class Clue {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		int T;
+		String pattern;
+		String text;
+		
+		
+		T=scan.nextInt();
+		scan.nextLine();
+		
+		for(int i=0;i<T;i++)
+		{
+			pattern=scan.nextLine();
+			text=scan.nextLine();
+		}
+			
+
+	}
+	public static String checkClue(String pattern,String text)
+	{
+		if(pattern.length()>text.length())
+		{
+			return "NO";
+		}
+	
+		
+		if(text.contains(pattern))
+		{
+			return "YES";
+		}
+		return "NO";
+	}
+	
+
+}

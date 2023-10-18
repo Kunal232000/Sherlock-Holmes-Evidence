@@ -1,0 +1,27 @@
+package pattern;
+
+import java.util.Scanner;
+
+public class Clue {
+
+	public static void main(String[] args) {
+		
+		Scanner scan=new Scanner(System.in);
+		
+		int T;
+		String Pattern;
+		String Text;
+		
+		
+		
+		
+		System.out.println();
+		
+		
+		
+		
+		
+
+	}
+
+}
